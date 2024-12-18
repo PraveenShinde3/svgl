@@ -3160,5 +3160,11 @@ export const svgs: iSVG[] = [
     category: 'Design',
     route: '/library/lottielab.svg',
     url: 'https://www.lottielab.com/'
+  },
+  {
+    title: 'ChatGPT',
+    category: 'AI',
+    route: '/library/chatgpt.svg',
+    url: 'https://chatgpt.com/'
   }
 ];
