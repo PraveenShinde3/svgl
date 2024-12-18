@@ -3164,7 +3164,10 @@ export const svgs: iSVG[] = [
   {
     title: 'ChatGPT',
     category: 'AI',
-    route: '/library/chatgpt.svg',
+    route: {
+      light: '/library/chatgpt-light.svg',
+      dark: '/library/chatgpt-dark.svg'
+    },
     url: 'https://chatgpt.com/'
   }
 ];
